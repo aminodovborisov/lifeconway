@@ -114,4 +114,12 @@
     .chkRound {
         height: 1vh;
     }
+    
+    .clickMe {
+        border: 1px solid black;
+    }
+    
+    .gameFieldTable {
+        border: 1.5px solid black;
+    }
 }
