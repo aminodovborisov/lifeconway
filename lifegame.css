@@ -74,6 +74,14 @@
 }
 
 @media (orientation: portrait) {
+    
+    .mainHeader {
+        padding: 0.1%;
+        text-align: center;
+        margin: 0 auto;
+        width: 85%;
+    }
+
     .gameField {
         width: 95%;
         padding: 0.7%;
@@ -100,7 +108,7 @@
     
     .btnButton {
         width: 25%;
-        font-size: 2vh;
+        font-size: 1.5vh;
     }
     
     .chkRound {
