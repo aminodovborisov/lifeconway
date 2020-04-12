@@ -8,10 +8,7 @@
     
     <body onLoad="gameStart()">
         <header class="mainHeader">
-            <h1 class="mainHead">Игра «ЖИЗНЬ»</h1>
-            <h2 class="subHead">
-                <a href="https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D1%80%D0%B0_%C2%AB%D0%96%D0%B8%D0%B7%D0%BD%D1%8C%C2%BB">Статья в WIKIPEDIA</a>
-            </h2>
+            <h1 class="mainHead">Игра «ЖИЗНЬ» (<a href="https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D1%80%D0%B0_%C2%AB%D0%96%D0%B8%D0%B7%D0%BD%D1%8C%C2%BB">Wiki</a>)</h1>
         </header>
         <div id="gameField" class="gameField">
             <table id="gameFieldTable" class="gameFieldTable">
@@ -21,7 +18,7 @@
             <input type="checkbox" class="chkRound" id="chkRound">Замкнутое поле</input>
         </div>
         <div class="dvButton">
-            <button id="btnStep" class="btnButton" onClick="stepLife()">Шаг</button>
+            <button id="btnStep" class="btnButton" onClick="stepLife()">Шаг жизни</button>
             <button id="btnAutoEv" class="btnButton" onClick="autoEvol()">Автомат</button>
             <button id="btnRefresh" class="btnButton" onClick="onRefresh()">Заново</button>
         </div>
