@@ -1,0 +1,109 @@
+.mainHeader {
+    padding: 0.2%;
+    text-align: center;
+    margin: 0 auto;
+    width: 40vw;
+}
+
+.mainHead {
+    font-size: 2.3vh;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.gameField {
+    margin: 0 auto;
+    padding: 1%;
+    width: 40vw;
+}
+
+.gameFieldTable {
+    margin: 0 auto;
+    padding: 0;
+    table-layout: fixed;
+    width: 80%;
+    height: 80%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+.gameCell {
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.clickMe {
+    height: 100%;
+    width: 100%;
+    background-color: #cdcdcd;
+    border: 0.2px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.clickMe:hover {
+    background-color: #00000010;
+    cursor: pointer;
+}
+
+.gameFieldTable {
+    border: 1px solid black;
+}
+
+.dvButton {
+    width: 40vw;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.btnButton {
+    margin: 0 auto;
+}
+
+.dvButtonAutoEv {
+    width: 40vw;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1%;
+}
+
+.btnAutoEv {
+    margin: 0 auto;
+}
+
+@media (orientation: portrait) {
+    .gameField {
+        width: 95%;
+        padding: 0.7%;
+        margin: 0 auto;
+    }
+    
+    .gameFieldTable {
+        margin: 0 auto;
+        padding: 0;
+        table-layout: fixed;
+        width: 85%;
+        height: 75%;
+        background-color: #ffffff;
+        border-collapse: collapse;
+    }
+    
+    .dvButton {
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 2vh;
+        margin: 1%;
+    }
+    
+    .btnButton {
+        width: 75%;
+        font-size: 2vh;
+    }
+    
+    .chkRound {
+        height: 1vh;
+    }
+}
