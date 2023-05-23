@@ -1,5 +1,5 @@
-let maxRows = 100;
-let maxCols = 50;
+let maxRows = 150;
+let maxCols = 70;
 // let rounded = true; 
 
 
